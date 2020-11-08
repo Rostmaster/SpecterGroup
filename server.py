@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, json, request
+from flask import Flask, jsonify, json, request, render_template
 import re
 
 with open('./config/.env') as f:
@@ -39,8 +39,8 @@ def get_json():
     return jsonify(data)
 
 @app.route('/')
-def hello():
-    return "Hello world!"
+def hello(name=None):
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(IP,PORT,debug=True)
