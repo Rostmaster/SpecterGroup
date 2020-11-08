@@ -1,0 +1,9 @@
+[
+    {"user":"John Smith", "message":"Hello))"},
+    {"user":"Mary Bell", "message":"Hi)"},
+    {"user":"John Smith", "message":"How are you?"},
+    {"user":"Mary Bell", "message":"Fine, and you?"},
+    {"user":"John Smith", "message":"Fine too))"},
+    {"user":"Mary Bell", "message":"Gotta go now, talk to you later..."},
+    {"user":"John Smith", "message":"Yeah, (("}
+]
