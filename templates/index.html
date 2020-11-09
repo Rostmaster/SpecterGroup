@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="/static/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/static/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="/static/jquery.lazy.plugins.min.js"></script>
+    <link rel="stylesheet" href="/static/ssss.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JQuery</h1>
+    <p>This is an html paragraph</p>
+    <ul>
+        <li>Method</li>
+        <li>Events</li>
+        <li>Effects</li>
+        <li>UI</li>
+    </ul>
+    <hr>
+    <div id="grandparent" class="ancestors">
+        grandparent
+        <br>
+        <div id="parent" class="ancestors">
+            Parent
+            <br>
+            <div id="child" class="ancestors">
+                Child
+            </div>
+            <div id="sibling" class="ancestors">
+                Sibling
+            </div>
+        </div>
+    </div>
+        <textarea name="" id="json-cont" cols="30" rows="10"></textarea>
+    </div> <hr>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="fadeOut">Fade Out</button>
+    <button id="fadeIn">Fade In</button>
+    <button id="stop">Stop</button>
+    <button id="css-class">Add css class</button>
+    <button id="css-class-del">Del css class</button>
+    <button id="MoveRight">Move right</button>
+    <button id="MoveLeft">Move left</button>
+    <button id="colorize">Colorize</button>
+    <button id="prettify">Prettify</button>
+
+    <button id="post">Post</button>
+    <button id="put">Put</button>
+    <button id="json">Get json</button>
+    <form action="http://127.0.0.1:3000/home" method="GET">
+        First name : <input id="FirstName"type="text" name="FirstName" value="Donald"><br>
+        Last name : <input id="LastName"type="text" name="LastName" value="Trump"><br>
+        <input type="submit" value="Submit" id="submit">
+    </form>
+
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">Your announcement could be here!</div>
+
+    <img data-src="/static/img/wallhaven-2k977g.jpg" class="lazy" alt="" width="765" height="574">
+    <img data-src="/static/img/wallhaven-4gm51l.jpg" class="lazy" alt="" width="765" height="574">
+    <img data-src="/static/img/wallhaven-4oddwm.jpg" class="lazy" alt="" width="765" height="574">
+    <script src="./static/script.js"></script>
+</body>
+
+</html>
